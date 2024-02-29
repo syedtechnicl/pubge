@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bacimage {
+  background-image: url("../Components//images/pubg-art.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh; /* You can adjust this value as needed */
+}
+
+.nnpp {
+  background-image: url("../Components/images/payment.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Set the height of the container to 100% of the viewport height */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
